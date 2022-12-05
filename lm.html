@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Car website</title>
+  <link rel="stylesheet" type="text/css" href="css/lms.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css" integrity="sha512-uj2QCZdpo8PSbRGL/g5mXek6HM/APd7k/B5Hx/rkVFPNOxAQMXD+t+bG4Zv8OAdUpydZTU3UHmyjjiHv2Ww0PA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.js"
+></script>
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.css"
+  rel="stylesheet"
+/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <body>
+ <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-black">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+       <img src="./images/lamborghini-logo-1000x1100-show.png" width="75px" alt="" class="d-inline-block align-middle mr-2">
+    <!-- Toggle button -->
+    <button class="navbar-toggler px-0" type="button" data-mdb-toggle="collapse"
+      data-mdb-target="#navbarExample2" aria-controls="navbarExample2" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarExample2">
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto ps-lg-0 ms-2" style="padding-left: 0.15rem">
+       
+        <!-- Navbar dropdown -->
+        <li class="nav-item dropdown position-static py-2">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+            data-mdb-toggle="dropdown" aria-expanded="false" style="font-family: 'Orbitron', sans-serif; font-size: 14px;">
+         MODELS 
+          </a>
+          <!-- Dropdown menu -->
+          <div class="dropdown-menu w-100 mt-0 text-white bg-black" aria-labelledby="navbarDropdown" style="
+                          border-top-left-radius: 0;
+                          border-top-right-radius: 0;
+                        ">
+            <div class="container-fluid">
+              <div class="row my-2">
+                <div class="col-md-1 col-lg-3 mb-1 mb-lg-0">
+                  <div class="list-group list-group-flush mx-5">
+                  
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">AVENTADOR</a>
+
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black "  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">HURACÁN</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">URUS</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">PRE-OWNED</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">LIMITED SERIES</a>
+                     <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">CONCEPT </a>
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </li>  
+
+
+
+
+               <li class="nav-item dropdown position-static py-2">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+            data-mdb-toggle="dropdown" aria-expanded="false" style="font-family: 'Orbitron', sans-serif; font-size: 14px;">
+        CUSTOM SOLUTIONS
+          </a>
+          <!-- Dropdown menu -->
+          <div class="dropdown-menu w-100 mt-0 text-white bg-black" aria-labelledby="navbarDropdown" style="
+                          border-top-left-radius: 0;
+                          border-top-right-radius: 0;
+                        ">
+            <div class="container-fluid ">
+              <div class="row my-2">
+                 <div class="col-md-1 col-lg-1 mb-3 ">
+               
+                </div>
+                <div class="col-sm-6 col-md-3 mb-1 ">
+                  <div class="list-group list-group-flush mx-5 ">
+                     <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">SAFETY</a>
+            <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">   CUSTOMIZATION</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black "  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">  ACCESSORIES</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">FINANCIAL SERVICES</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">WARRANTY EXTENSION</a>
+
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </li>
+
+
+             <li class="nav-item dropdown position-static py-2">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+            data-mdb-toggle="dropdown" aria-expanded="false" style="font-family: 'Orbitron', sans-serif;font-size: 14px;">
+      OWNERSHIP
+          </a>
+          <!-- Dropdown menu -->
+          <div class="dropdown-menu w-100 mt-0 text-white bg-black" aria-labelledby="navbarDropdown" style="
+                          border-top-left-radius: 0;
+                          border-top-right-radius: 0;
+                        ">
+            <div class="container-fluid ">
+              <div class="row my-2">
+               
+                  <div class="col-md-2 col-lg-2 mb-3 mx-5  ">
+               
+                </div>
+
+                <div class="col-sm-6 col-md-3 mb-1 ">
+                  <div class="list-group list-group-flush mx-4">    
+                     <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">CONNECTIVITY</a>
+            <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">   CUSTOMER APP</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black "  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">MOBILITY PROGRAM</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">CLASSICS</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black" style="font-family: 'Orbitron', sans-serif; font-size: 13px;">SERVICE</a>
+                     <a href="" class="list-group-item list-group-item-action text-white bg-black" style="font-family: 'Orbitron', sans-serif; font-size: 13px;">RECALL CAMPAIGN</a>
+
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </li>
+
+          <li class="nav-item dropdown position-static py-2">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+            data-mdb-toggle="dropdown" aria-expanded="false" style="font-family: 'Orbitron', sans-serif; font-size: 14px;">
+    MOTORSPORT
+          </a>
+          <!-- Dropdown menu -->
+          <div class="dropdown-menu w-100 mt-0 text-white bg-black" aria-labelledby="navbarDropdown" style="
+                          border-top-left-radius: 0;
+                          border-top-right-radius: 0;
+                        ">
+            <div class="container-fluid ">
+              <div class="row my-2">
+               
+                  <div class="col-md-1 col-lg-3 mb-2 mx-5 ">
+               
+                </div>
+
+                <div class="col-sm-6 col-md-3 mb-1 ">  
+
+
+
+
+
+
+                  <div class="list-group list-group-flush mx-4 ">    
+                     <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">SUPER TROFEO</a>
+            <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">GT3  </a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black "  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">MOTORSPORT MODELS</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">DRIVERS</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black" style="font-family: 'Orbitron', sans-serif; font-size: 13px;">MOTORSPORT NEWS</a>
+                     <a href="" class="list-group-item list-group-item-action text-white bg-black" style="font-family: 'Orbitron', sans-serif; font-size: 13px;">EXPERIENCE</a>
+                      <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">ESPORTS</a>
+
+                  </div>
+
+                </div>
+              
+              </div>
+            </div>
+
+          </div>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+<div class="search-box ">
+  <input class="search-input img-fluid" type="text" name="" placeholder="search lamborghini" style="font-family:'Orbitron', sans-serif; font-size: 15px;">
+  <a href="#" class="search-btn">
+    <i class="fas fa-search"></i>
+  </a>     
+</div>
+          <div class="rost">
+          <li class="nav-item py-2">
+              <a href="" class="nav-link text-white " style="font-family: 'Orbitron', sans-serif; font-size: 14px;">DEALERSHIPS</a>
+            </li>
+            <li class="nav-item py-2 ">
+              <a href="" class="nav-link text-white " style="font-family: 'Orbitron', sans-serif; font-size: 14px;"> MUSEUM</a>
+            </li>
+            <li class="nav-item py-2 ">
+              <a href="" class="nav-link text-white  " style="font-family: 'Orbitron', sans-serif; font-size: 14px;"> STORE</i></a>
+            </li>
+           
+              <li class="nav-item py-1 ">
+              <a href="" class="nav-link text-white"><i class="bi bi-chat-left-text ms-2 fa-1x me-2 " style="font-size:20px;"></i></a>
+            </li>
+          <li class="nav-item dropdown position-static">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+            data-mdb-toggle="dropdown" aria-expanded="false">
+          <div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+<script>
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+</script>
+          </a>
+          <!-- Dropdown menu -->
+          <div class="dropdown-menu w-100 mt-0  bg-black " aria-labelledby="navbarDropdown" style="
+                          border-top-left-radius: 0;
+                          border-top-right-radius: 0;
+                        ">
+            <div class="container-">
+              <div class="row my-4 ">
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0 mx-4">
+                  <div class="list-group list-group-flush  ">
+                    
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"><h1 style="font-size:16px; font-family: 'Orbitron', sans-serif;">DESIGN</h1></a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"><h1 style="font-size:16px;font-family: 'Orbitron', sans-serif;">INNOVATION & EXCELLENCE</h1></a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"><h1 style="font-size:16px; font-family: 'Orbitron', sans-serif;">SUSTAINABILITY</h1></a>
+                   
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0 mx-4">
+                  <div class="list-group list-group-flush  ">
+                       <a href="" class="list-group-item  list-group-item-action text-white bg-black"><h1 style="font-size:16px;font-family: 'Orbitron', sans-serif;">DRIVING PROGRAMS</h1></a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"><h1 style="font-size:16px;font-family: 'Orbitron', sans-serif;">LOUNGE</h1></a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"><h1 style="font-size:16px;font-family: 'Orbitron', sans-serif;">CLUB
+</h1></a>
+                 
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-3 mb-md-0 mx-4 ">
+                  <div class="list-group list-group-flush  ">
+                  
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"><h1 style="font-size:16px; font-family: 'Orbitron', sans-serif;">HISTORY</h1></a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"><h1 style="font-size:16px;font-family: 'Orbitron', sans-serif;">NEWS
+</h1></a>
+                  </div>
+                </div>
+               <hr class=" col-md-11 mx-auto ">
+               <div class="container-fluid mx-5">
+                 <div class="row my-2">
+                  <div class="col-md-4">
+                    <h6 class="text-white" style="font-family: 'Orbitron', sans-serif;">Languages</h6>
+                    <br>
+                    <span class="" style="font-weight: bold;font-family: 'Orbitron', sans-serif;">ENGLISH   </span>  <span class="mx-4 text-white" style="font-weight: bold; font-family: 'Orbitron', sans-serif;">ITALIAN    </span>  <span class="mx-2 text-white" style="font-weight: bold;font-family: 'Orbitron', sans-serif;">FRENCH  </span><br>
+                     <br>
+                     <span class="text-white"  style="font-weight: bold;font-family: 'Orbitron', sans-serif;">SPANISH  </span>  <span class="mx-4 text-white" style="font-weight: bold;font-family: 'Orbitron', sans-serif;">GERMAN  </span>  <span class="mx-2 text-white" style="font-weight: bold;font-family: 'Orbitron', sans-serif;">CHINESE </span>
+                     <br>
+                     <br>
+                      <span class=" text-white"  style="font-weight: bold;font-family: 'Orbitron', sans-serif;">JAPANESE  </span>  <span class="mx-2 text-white"  style="font-weight: bold;font-family: 'Orbitron', sans-serif;">RUSSIAN </span>
+                  </div>
+
+                  <div class="col-md-4 my-2">
+                      <h6 class="text-white" style="font-family: 'Orbitron', sans-serif;">Social</h6>
+                      <br>
+                        <span > <i class="fa-brands fa-instagram text-white" style="font-size:24px;"></i> </span> <span ><i class="fa-brands fa-facebook text-white mx-3"style="font-size:24px;"></i></span>  <span > <i class="fa-brands fa-youtube text-white " style="font-size:24px;"></i> </span> <span class=""><i class="fa-brands fa-tiktok text-white mx-3" style="font-size:24px;"></i></span> <span class=""><i class="fa-brands fa-linkedin text-white mx-2" style="font-size:24px;"></i></span>
+                        <br>
+                        <br>
+                        <span > <i class="fa-brands fa-weibo text-white" style="font-size:24px;"></i></span> <span > <i class="fa-regular fa-circle-play text-white mx-3" style="font-size:24px;"></i></span>   <span > <i class="fa-brands fa-weixin text-white" style="font-size:24px;"></i></span>   <span > <i class="fa-brands fa-discord text-white mx-3" style="font-size:24px;"></i></span>  
+                  </div>   
+                  <div class="col-md-4 my-2">
+                      <h6 class="text-white" style="font-family: 'Orbitron', sans-serif;">Settings</h6>
+                      <br>
+                        <span class=" text-white"  style="font-weight: bold;font-family: 'Orbitron', sans-serif;">TEXT-SIZE </span> <span><i class="fa-solid fa-minus text-white mx-5"></i></span> <span><i class="fa-solid fa-plus text-white mx-1"></i></span><br>
+                        <br>
+
+                         <span class=" text-white"  style="font-weight: bold;font-family: 'Orbitron', sans-serif;">TRANSACTIONS </span> <span><i class="fa-solid fa-clock text-white mx-2"></i></span> <span><i class="fa-solid fa-clock text-white mx-5"></i></span>
+                  </div>
+
+
+                 </div>
+               </div>
+
+
+              </div>
+            </div>
+          </div>
+        </li>
+            </div>
+
+        </li>
+          
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+
+<section>
+  
+    <div class="col-md-12  " >
+        <div class="tm-video-wrapper " style="background-size: cover;">
+       <video autoplay="autoplay" muted="play" loop="" id="tm-video" width="100%" >
+         <source src="./videos/Lamborghini_Urus_-_Every_road_is_its_road(1080p)_3.mp4" type="video/mp4">
+          
+                   </video>
+                   <div class="lac">
+                 <h5 class=" animate__animated animate__bounceInLeft animate__infinite animate__slow ">URUS PERFORMANTE<i class="fa-solid fa-angle-right"></i></h5>
+                 <H2 class=" animate__animated animate__bounceInLeft animate__infinite animate__slow ">FOR BAR RAISERS ONLY<i class="fa-solid fa-angle-right"></i></H2> 
+            
+               
+                 </div>
+
+      </div>
+      
+    </div>
+</section>
+
+
+
+
+<section>
+  
+ 
+  <div class="bbg">
+       <img src="./images/57192p.jpg" class="urus"  width="100%"  alt="Wild Landscape" />
+             <img src="./images/lamborghini-logo-1000x1100-show.png" class="dont" width="50px"  alt="" />
+              <img src="./images/12523.png" class="dot" width="50px"  alt="" />
+
+  </div>
+</section>
+
+ 
+<div id="carouselExampleTouch" class="carousel slide" data-mdb-touch="false">
+
+  <div class="carousel-inner venno">
+    <div class="carousel-item active">
+      <img src="./images/wallpapers.jpg" class="d-block w-100" alt="Wild Landscape"/>
+      <div class="carousel-caption   d-md-block">
+      
+        <h1 class="col-md-10  ">IT TAKES TIME</h1>
+        <h2> TO BECAME TIMELESS</h2>
+          <h6 >AVENDATOR LP 780-4 ULTIMAE ROADSTER</h6>
+          </a><img src="./images/SL.png" class="btx" width=""   alt=""   />
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/wallpaper.jpg" class="d-block w-100" alt="Camera"/>
+      <div class="carousel-caption net d-md-block">
+          <h6 >URUS PERFORMANTE</h6>
+        <h1 >FOR BAR</h1>
+        <h2> RAISERS ONLY</h2>
+
+        <img src="./images/SL.png" class="bt " width=""   alt=""    />
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/Hura.jpg" class="d-block w-100" alt="Exotic Fruits"/>
+      <div class="carousel-caption max d-md-block">
+        <h6 >
+HURACÁN STO</h6>
+        <h1 >BASED ON A </h1>
+        <h2>TRUE STORY</h2>
+         <img src="./images/SL.png" class="bt" width=""   alt=""  />
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleTouch" data-mdb-slide="prev">
+   
+  
+  </button>
+  <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleTouch" data-mdb-slide="next">
+ 
+  
+  </button>
+</div>
+
+
+ 
+ <section>
+<div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active rx">
+
+      <img src="./images/450.jpg" class="d-block w-100" alt="Wild Landscape"/>
+
+        <img src="./images/huracan_sto_3d_m (1).png" class="Huracan"  width=""  alt="Wild Landscape" />
+         <h1  >HURACÁN</h1>
+         <h3 >TAKE ALL YOUR SOULS TO DRIVE</h3>
+          <h2 style="font-family: 'Orbitron', sans-serif;">MODELS</h2>
+          <h4 style="font-family: 'Orbitron', sans-serif;">Explore the Models <img src="./images/SLx.png" class="xt" width="35px"   alt=""   /></h4>
+
+    </div>
+    <div class="carousel-item pent">
+      <img src="./images/450.jpg" class="d-block w-100" alt="Camera"/> 
+       
+        <img src="./images/161597-aventader.png" class="AVENDATOR"  width=""  alt="Wild Landscape" />
+          <h1  >AVENTADOR</h1>
+         <h3 >REAL EMOTIONS SHAPE THE FUTURE</h3>
+            <h2 style="font-family: 'Orbitron', sans-serif;">MODELS</h2>
+              <h4 style="font-family: 'Orbitron', sans-serif;">Explore the Models <img src="./images/SLx.png" class="st" width="35px"   alt=""   /></h4>
+
+    </div>
+    <div class="carousel-item fed">
+      <img src="./images/450.jpg" class="d-block w-100" alt="Exotic Fruits"/>   
+
+        
+        <img src="./images/Urus.png" class="uus"  width=""  alt="Wild Landscape" />
+           <h1  >URUS</h1>
+         <h3 >UNLOCK ANY ROAD</h3>
+            <h2 style="font-family: 'Orbitron', sans-serif;">MODELS</h2>
+              <h4 style="font-family: 'Orbitron', sans-serif;">Explore the Models <img src="./images/SLx.png" class="st" width="35px"   alt=""   /></h4>
+
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleControls" data-mdb-slide="prev">
+   
+  </button>
+  <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleControls" data-mdb-slide="next">
+   
+  </button>
+</div>
+
+</section> 
+
+<div class="AVENTADOR">
+    <img src="./images/avn.png" class="fex img-fluid" alt="Wild Landscape"/>
+     <img src="./images/menu_aventadorpng.png" class=" adx img-fluid" alt="Wild Landscape"/>
+     <img src="./images/avendator logo.png" class=" log img-fluid" alt="Wild Landscape"/>
+     <p class="col-md-4 txt">The Roadster’s Lamborghini DNA is unmistakable, with even sharper lines and a perfect contrast of sophistication and aggression: a design masterpiece in which aesthetic and practical perfection is no longer just an ideal.<a href="./lms.html"><img src="./images/SLx.png" class="st mx-1" width="35px"   alt=""   /></a></p>
+
+    </div>
+
+
+<section>
+  
+  <div class="black">
+       <img src="./images/BDAuXV.jpg" class="meta" alt=""/>   
+           <img src="./images/Untitleds.png" class="sia" alt=""/>
+            <img src="./images/sian logo .png" class="sianlogo" alt=""/>
+            <h3 class="msg" >LIMITED EDITION</h3>
+            <h1 class="msg1" >SIÁN ROADSTER</h1>
+            <p class="fk">FKP-37</p>
+              <img src="./images/SL.png" class="moon" width=""   alt=""  />
+
+  </div>
+</section>
+
+<section>
+  
+  <div class="lamb">
+     <img src="./images/peak1.jpg" class="wax" alt=""/>  
+        <h3 class="DD" >
+DEALER LOCATOR</h3>
+<h1 class="fd">FIND YOUR<br>
+COUNTRY DEALER</h1>
+<img src="./images/SL.png" class="moox" width=""   alt=""  />
+  </div>
+
+</section>
+
+<div class="texts ">
+  <h4>NEWS</h4>
+  <h1>
+LAMBORGHINI WORLD</h1>
+<img src="./images/lamborghini-countach-lpi-800-4_100826646_h.jpg" class="couh" width=""   alt=""  />
+</div>
+ 
+     <div class="container my-5  ">
+  <div class="row ms-auto ">
+    <div class="col-md-9 mx-4">
+      <h6>29 SEPTEMBER 2022</h6>
+      <p>URUS</p>
+      <h1 style="font-weight: 610;">LAMBORGHINI PRESENTS: LAMBORGHINI URUS S</h1>
+      <P>A new evolution of the Lamborghini Urus has arrived.</P>
+    </div>
+    
+    <div class="col-md-2 ms-2 ">
+     <button class="button "><span>Read More </span></button>
+
+    </div>
+  </div>
+</div>
+ <div class="container my-3 mx-4 ">
+  <div class="row ">
+    <div class="col-md-6  ">
+    <img src="./images/Fd.jpg" class="img-fluid" width="600px"   alt=""  />
+
+    </div>
+    
+    <div class="col-md-6  ">
+        <h6>27 SEPTEMBER 2022</h6>
+      <p>URUS</p>
+      <h1 style="font-weight:610">SPEED QUESTIONING INSPIRED BY URUS PERFORMANTE WITH FEDERICO FOSCHINI</h1>
+     <button class="button "><span>Read More </span></button>
+
+    </div>
+  </div>
+</div>
+    
+    <div class="container my-3 mx-4 ">
+  <div class="row ">
+    <div class="col-md-6  ">
+    <img src="./images/2020.jpg" class="img-fluid" width="600px"   alt=""  />
+
+    </div>
+    
+    <div class="col-md-6  ">
+        <h6>26 SEPTEMBER 2022</h6>
+      <p>AVENTADOR</p>
+      <h1 style="font-weight:610">END OF AN ERA WITH THE LAST LAMBORGHINI AVENTADOR</h1>
+      <br>
+     <button class="button "><span>Read More </span></button>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="bx text-center">
+  <button class="button "><span>See All </span></button>  
+</div>
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-black text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+     <span style="font-weight:600;">COMPANY</span>  <span class="ms-2" style="font-weight: 600;" > CAREERS</span> 
+<span class="ms-2" style="font-weight:600;">CONTACT US</span>
+<span class="ms-2" style="font-weight:600;">SUSTAINABILITY</span>
+<span class="ms-2" style="font-weight:600">SUSTAINABILITY</span>
+<span class="ms-2" style="font-weight:600">PRIVACY & LEGAL</span> 
+<br>
+<span  style="font-weight:600;">SUSTAINABILITY</span>
+<span class="ms-2" style="font-weight:600">SUSTAINABILITY</span>
+<span class="ms-2" style="font-weight:600">PRIVACY & LEGAL</span>
+
+    </div>
+  
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f text-white"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter text-white"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google text-white"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram text-white"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin text-white"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github text-white"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-youtube text-white"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-12  mx-1 mb-4">
+        
+          <p>
+           *The consumption and emissions values in the website refer to your geographical IP. This value might be unrealistic if you navigate using VPN or if the position of your Internet provider is imprecise. If you believe you are incorrectly geolocalized, contact your dealer to get valid consumption and emissions information in your area.
+          </p>
+        </div>
+          <div class="col-md-6  mx-1 mb-4">
+        
+          <p style="font-weight: 600;">
+            Copyright © 2022 Automobili Lamborghini S.p.A. a sole shareholder company part of Audi Group.
+
+All rights reserved. VAT no. IT 00591801204
+          </p>
+        </div>
+     
+       
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-1" style="background-color:#1c1c1c;">
+   <p class="my-1 text-white">Fuel consumption and emission values of all vehicles promoted on this page*; Fuel consumption combined: 19,5-12,7 l/100km (WLTP); CO2-emissions combined: 448-320 g/km (WLTP)</p>
+  </div>
+ 
+</footer>
+<!-- Footer -->
+    </body>
+    </head>
+    </html>

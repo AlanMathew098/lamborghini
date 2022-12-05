@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Car website</title>
+  <link rel="stylesheet" type="text/css" href="css/lms.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css" integrity="sha512-uj2QCZdpo8PSbRGL/g5mXek6HM/APd7k/B5Hx/rkVFPNOxAQMXD+t+bG4Zv8OAdUpydZTU3UHmyjjiHv2Ww0PA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.js"
+></script>
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.css"
+  rel="stylesheet"
+/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <body>
+ <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-black">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+       <img src="./images/lamborghini-logo-1000x1100-show.png" width="75px" alt="" class="d-inline-block align-middle mr-2">
+    <!-- Toggle button -->
+    <button class="navbar-toggler px-0" type="button" data-mdb-toggle="collapse"
+      data-mdb-target="#navbarExample2" aria-controls="navbarExample2" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarExample2">
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto ps-lg-0 ms-2" style="padding-left: 0.15rem">
+       
+        <!-- Navbar dropdown -->
+        <li class="nav-item dropdown position-static py-2">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+            data-mdb-toggle="dropdown" aria-expanded="false" style="font-family: 'Orbitron', sans-serif; font-size: 14px;">
+         MODELS 
+          </a>
+          <!-- Dropdown menu -->
+          <div class="dropdown-menu w-100 mt-0 text-white bg-black" aria-labelledby="navbarDropdown" style="
+                          border-top-left-radius: 0;
+                          border-top-right-radius: 0;
+                        ">
+            <div class="container-fluid">
+              <div class="row my-2">
+                <div class="col-md-1 col-lg-3 mb-1 mb-lg-0">
+                  <div class="list-group list-group-flush mx-5">
+                  
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">AVENTADOR</a>
+
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black "  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">HURACÁN</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">URUS</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">PRE-OWNED</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">LIMITED SERIES</a>
+                     <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">CONCEPT </a>
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </li>  
+
+
+
+
+               <li class="nav-item dropdown position-static py-2">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+            data-mdb-toggle="dropdown" aria-expanded="false" style="font-family: 'Orbitron', sans-serif; font-size: 14px;">
+        CUSTOM SOLUTIONS
+          </a>
+          <!-- Dropdown menu -->
+          <div class="dropdown-menu w-100 mt-0 text-white bg-black" aria-labelledby="navbarDropdown" style="
+                          border-top-left-radius: 0;
+                          border-top-right-radius: 0;
+                        ">
+            <div class="container-fluid ">
+              <div class="row my-2">
+                 <div class="col-md-1 col-lg-1 mb-3 ">
+               
+                </div>
+                <div class="col-sm-6 col-md-3 mb-1 ">
+                  <div class="list-group list-group-flush mx-5 ">
+                     <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">SAFETY</a>
+            <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">   CUSTOMIZATION</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black "  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">  ACCESSORIES</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">FINANCIAL SERVICES</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">WARRANTY EXTENSION</a>
+
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </li>
+
+
+             <li class="nav-item dropdown position-static py-2">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+            data-mdb-toggle="dropdown" aria-expanded="false" style="font-family: 'Orbitron', sans-serif;font-size: 14px;">
+      OWNERSHIP
+          </a>
+          <!-- Dropdown menu -->
+          <div class="dropdown-menu w-100 mt-0 text-white bg-black" aria-labelledby="navbarDropdown" style="
+                          border-top-left-radius: 0;
+                          border-top-right-radius: 0;
+                        ">
+            <div class="container-fluid ">
+              <div class="row my-2">
+               
+                  <div class="col-md-2 col-lg-2 mb-3 mx-5  ">
+               
+                </div>
+
+                <div class="col-sm-6 col-md-3 mb-1 ">
+                  <div class="list-group list-group-flush mx-4">    
+                     <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">CONNECTIVITY</a>
+            <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">   CUSTOMER APP</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black "  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">MOBILITY PROGRAM</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">CLASSICS</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black" style="font-family: 'Orbitron', sans-serif; font-size: 13px;">SERVICE</a>
+                     <a href="" class="list-group-item list-group-item-action text-white bg-black" style="font-family: 'Orbitron', sans-serif; font-size: 13px;">RECALL CAMPAIGN</a>
+
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </li>
+
+          <li class="nav-item dropdown position-static py-2">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+            data-mdb-toggle="dropdown" aria-expanded="false" style="font-family: 'Orbitron', sans-serif; font-size: 14px;">
+    MOTORSPORT
+          </a>
+          <!-- Dropdown menu -->
+          <div class="dropdown-menu w-100 mt-0 text-white bg-black" aria-labelledby="navbarDropdown" style="
+                          border-top-left-radius: 0;
+                          border-top-right-radius: 0;
+                        ">
+            <div class="container-fluid ">
+              <div class="row my-2">
+               
+                  <div class="col-md-1 col-lg-3 mb-2 mx-5 ">
+               
+                </div>
+
+                <div class="col-sm-6 col-md-3 mb-1 ">  
+
+
+
+
+
+
+                  <div class="list-group list-group-flush mx-4 ">    
+                     <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">SUPER TROFEO</a>
+            <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">GT3  </a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black "  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">MOTORSPORT MODELS</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">DRIVERS</a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black" style="font-family: 'Orbitron', sans-serif; font-size: 13px;">MOTORSPORT NEWS</a>
+                     <a href="" class="list-group-item list-group-item-action text-white bg-black" style="font-family: 'Orbitron', sans-serif; font-size: 13px;">EXPERIENCE</a>
+                      <a href="" class="list-group-item list-group-item-action text-white bg-black"  style="font-family: 'Orbitron', sans-serif; font-size: 13px;">ESPORTS</a>
+
+                  </div>
+
+                </div>
+              
+              </div>
+            </div>
+
+          </div>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+<div class="search-box ">
+  <input class="search-input img-fluid" type="text" name="" placeholder="search lamborghini" style="font-family:'Orbitron', sans-serif; font-size: 15px;">
+  <a href="#" class="search-btn">
+    <i class="fas fa-search"></i>
+  </a>     
+</div>
+          <div class="rost">
+          <li class="nav-item py-2">
+              <a href="" class="nav-link text-white " style="font-family: 'Orbitron', sans-serif; font-size: 14px;">DEALERSHIPS</a>
+            </li>
+            <li class="nav-item py-2 ">
+              <a href="" class="nav-link text-white " style="font-family: 'Orbitron', sans-serif; font-size: 14px;"> MUSEUM</a>
+            </li>
+            <li class="nav-item py-2 ">
+              <a href="" class="nav-link text-white  " style="font-family: 'Orbitron', sans-serif; font-size: 14px;"> STORE</i></a>
+            </li>
+           
+              <li class="nav-item py-1 ">
+              <a href="" class="nav-link text-white"><i class="bi bi-chat-left-text ms-2 fa-1x me-2 " style="font-size:20px;"></i></a>
+            </li>
+          <li class="nav-item dropdown position-static">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+            data-mdb-toggle="dropdown" aria-expanded="false">
+          <div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+<script>
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+</script>
+          </a>
+          <!-- Dropdown menu -->
+          <div class="dropdown-menu w-100 mt-0  bg-black" aria-labelledby="navbarDropdown" style="
+                          border-top-left-radius: 0;
+                          border-top-right-radius: 0;
+                        ">
+            <div class="container">
+              <div class="row my-4 ">
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0 mx-4">
+                  <div class="list-group list-group-flush  ">
+                    
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"><h1 style="font-size:16px; font-family: 'Orbitron', sans-serif;">DESIGN</h1></a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"><h1 style="font-size:16px;font-family: 'Orbitron', sans-serif;">INNOVATION & EXCELLENCE</h1></a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"><h1 style="font-size:16px; font-family: 'Orbitron', sans-serif;">SUSTAINABILITY</h1></a>
+                   
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0 mx-4">
+                  <div class="list-group list-group-flush  ">
+                       <a href="" class="list-group-item  list-group-item-action text-white bg-black"><h1 style="font-size:16px;font-family: 'Orbitron', sans-serif;">DRIVING PROGRAMS</h1></a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"><h1 style="font-size:16px;font-family: 'Orbitron', sans-serif;">LOUNGE</h1></a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"><h1 style="font-size:16px;font-family: 'Orbitron', sans-serif;">CLUB
+</h1></a>
+                 
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-3 mb-md-0 mx-4 ">
+                  <div class="list-group list-group-flush  ">
+                  
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"><h1 style="font-size:16px; font-family: 'Orbitron', sans-serif;">HISTORY</h1></a>
+                    <a href="" class="list-group-item list-group-item-action text-white bg-black"><h1 style="font-size:16px;font-family: 'Orbitron', sans-serif;">NEWS
+</h1></a>
+                  </div>
+                </div>
+               <hr class=" col-md-11 mx-auto ">
+               <div class="container-fluid mx-5">
+                 <div class="row my-2">
+                  <div class="col-md-4">
+                    <h6 class="text-white" style="font-family: 'Orbitron', sans-serif;">Languages</h6>
+                    <br>
+                    <span class="" style="font-weight: bold;font-family: 'Orbitron', sans-serif;">ENGLISH   </span>  <span class="mx-4 text-white" style="font-weight: bold; font-family: 'Orbitron', sans-serif;">ITALIAN    </span>  <span class="mx-2 text-white" style="font-weight: bold;font-family: 'Orbitron', sans-serif;">FRENCH  </span><br>
+                     <br>
+                     <span class="text-white"  style="font-weight: bold;font-family: 'Orbitron', sans-serif;">SPANISH  </span>  <span class="mx-4 text-white" style="font-weight: bold;font-family: 'Orbitron', sans-serif;">GERMAN  </span>  <span class="mx-2 text-white" style="font-weight: bold;font-family: 'Orbitron', sans-serif;">CHINESE </span>
+                     <br>
+                     <br>
+                      <span class=" text-white"  style="font-weight: bold;font-family: 'Orbitron', sans-serif;">JAPANESE  </span>  <span class="mx-2 text-white"  style="font-weight: bold;font-family: 'Orbitron', sans-serif;">RUSSIAN </span>
+                  </div>
+
+                  <div class="col-md-4 my-2">
+                      <h6 class="text-white" style="font-family: 'Orbitron', sans-serif;">Social</h6>
+                      <br>
+                        <span > <i class="fa-brands fa-instagram text-white" style="font-size:24px;"></i> </span> <span ><i class="fa-brands fa-facebook text-white mx-3"style="font-size:24px;"></i></span>  <span > <i class="fa-brands fa-youtube text-white " style="font-size:24px;"></i> </span> <span class=""><i class="fa-brands fa-tiktok text-white mx-3" style="font-size:24px;"></i></span> <span class=""><i class="fa-brands fa-linkedin text-white mx-2" style="font-size:24px;"></i></span>
+                        <br>
+                        <br>
+                        <span > <i class="fa-brands fa-weibo text-white" style="font-size:24px;"></i></span> <span > <i class="fa-regular fa-circle-play text-white mx-3" style="font-size:24px;"></i></span>   <span > <i class="fa-brands fa-weixin text-white" style="font-size:24px;"></i></span>   <span > <i class="fa-brands fa-discord text-white mx-3" style="font-size:24px;"></i></span>  
+                  </div>   
+                  <div class="col-md-4 my-2">
+                      <h6 class="text-white" style="font-family: 'Orbitron', sans-serif;">Settings</h6>
+                      <br>
+                        <span class=" text-white"  style="font-weight: bold;font-family: 'Orbitron', sans-serif;">TEXT-SIZE </span> <span><i class="fa-solid fa-minus text-white mx-5"></i></span> <span><i class="fa-solid fa-plus text-white mx-1"></i></span><br>
+                        <br>
+
+                         <span class=" text-white"  style="font-weight: bold;font-family: 'Orbitron', sans-serif;">TRANSACTIONS </span> <span><i class="fa-solid fa-clock text-white mx-2"></i></span> <span><i class="fa-solid fa-clock text-white mx-5"></i></span>
+                  </div>
+
+
+                 </div>
+               </div>
+
+
+              </div>
+            </div>
+          </div>
+        </li>
+            </div>
+
+        </li>
+          
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<section>
+  <section>
+  
+    <div class="col-md-12  " >
+        <div class="tm-video-wrapper " style="background-size: cover;">
+       <video autoplay="autoplay" muted="play" loop="" id="tm-video" width="100%" >
+         <source src="./videos/Lamborghini_Aventador_S_Roadster__Free_your_Ego(1080p)_2.mp4" type="video/mp4">
+          
+                   </video>
+                   <div class="lax">
+                
+                   <h6 > HOME / MODEL / MODELS AVENDATOR / AVENDATOR SVJ ROADSTER</h6>
+               
+                 </div>
+                 <div class="lap">
+                   <h5> AVENDATOR SVJ ROADSTER</h5>
+                 </div>
+                 <div class="lop">
+                   <h1>REAL EMOTIONS <br>
+                   SHAPE THE <br>
+                   FUTURE 
+              </h1>
+                 </div>
+                 <div class="los">
+                   <h4>POWER (CV) / POWER (KW)</h4>
+                   <p>770 CV / 566 kW</p>
+                 </div>
+                 <div class="lrt">
+                    <h4>MAX. SPEED</h4>
+                   <p>>350 km/h</p>
+                 </div>
+                  <div class="let">
+                    <h4>0-100 km/h</h4>
+                   <p>2.9 s</p>
+                 </div>
+
+      </div>
+     
+    </div>
+
+</section>
+ 
+
+ <div class="avnt">
+
+   
+   <img src="./images/blacx.jpg" class="holo" alt=""/>
+
+       <img src="./images/holox.png" class="holx  " alt=""/>
+        <img src="./images/lamborghini_aventador.png" class="loc" alt=""/>
+         <img src="./images/lamborghini-logo-1000x1100-show.png" class="lam" alt=""/>
+      
+ </div>
+
+
+  <section>
+  <div class="city">
+      <img src="./images/un.png" class="city" alt=""/>
+       <img src="./images/Aventador_U.png" class="ant" alt=""/>
+      
+  </div>
+  </section>
+
+  <section>
+   <div class="scan">
+         <h2>AUGMENTED REALITY</h2>
+         <p>Frame the QR code with your smartphone and turn<br> on the Lamborghini Augmented Reality experience.</p>
+           <a href=""><img src="./images/qr.8f369.png" class="qr" alt=""/></a>
+       </div>
+
+</section>
+
+<section>
+  
+  <div class="ans">
+      <img src="./images/2020-Lamborghini-Aventador.png" class="ans" alt=""/>
+      <h2>OVERVIEW</h2>
+      <p class="col-md-6">Limited to a mere 800 examples, the SVJ Roadster is the most iconic form of the Aventador family.
+
+Its Lamborghini aerodynamics represent the most futuristic ever designed: the ALA 2.0 system and aero-vectoring ensure the minimum drag on straightaways and the optimal aerodynamic load when cornering. The 770 hp naturally aspirated V12 engine inspires awe. <br>
+</p>
+      
+  </div>
+</section>
+
+<section>
+  
+  <div class="ext ">
+      <img src="./images/in.png" class="ex" alt=""/>
+       <h2>EXTERIOR DESIGN</h2>
+       <p class="col-sm-6">The SVJ Roadster uses ultra-light carbon fiber for its bodywork and rigid removable roof. The body features larger air intakes and more extended side skirts, accentuated aerodynamic profiles and a lighter exhaust system mounted higher up.<br>The rigid roof is made using an innovative, high-pressure RTM molding technology.<br>The SVJ 63 Roadster, produced in a limited edition of only 63 examples, features an even more dynamic and exclusive appearance. <br><br>Exterior design
+3D view</p>
+<nav class="navbar navbar-expand-lg navbar" style="background:transparent;">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <button class="navbar-toggler px-0" type="button" data-mdb-toggle="collapse"
+      data-mdb-target="#navbarExample1" aria-controls="navbarExample1" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarExample1">
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto ps-lg-0" style="padding-left: 0.15rem">
+       
+        <!-- Navbar dropdown -->
+        <li class="nav-item dropdown position-static">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+            data-mdb-toggle="dropdown" aria-expanded="false">
+            <img src="./images/SLx.png" class="fe" width=""   alt=""  />
+          </a>
+          <!-- Dropdown menu -->
+          <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown" style="
+                          border-top-left-radius: 0;
+                          border-top-right-radius: 0;
+                        ">
+            <div class="container ">
+              <div class="row my-4 ">
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0   ">
+                  <img src="./images/wp7160396-lamborghini-aventador-4k-pc-wallpapers.jpg" class="amx "    alt=""  />
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+
+  </div>
+</section>
+
+<section>
+<div class="img">
+  <img src="./images/green.png" class="ang" alt=""/>
+  <img src="./images/set.png" class="and" alt=""/>
+  <img src="./images/avendator logo.png" class="anm" alt=""/>
+  <h1>PUSH BEYOND <br>PERFORMANCE</h1>
+</div>
+
+</section>
+<section>
+  <div class="svj">
+    <img src="./images/Unt.png" class="sv " alt=""/>
+    <h2>INTERIOR DESIGN</h2>
+    <p class="col-md-6">The technological look of carbon fiber, featured in the monocoque as well as the doors, seats, center tunnel and console, coexists with a design of clear aeronautical inspiration, while the leather and Alcantara upholstery adds a bold touch of exclusivity to the luxurious interior. 
+      But it is the refined details of the cross-stitching and special SVJ Roadster plaque that confer a truly unique character to this remarkable automobile.<br><br>
+      Interior design
+      3D view</p> <nav class="navbar navbar-expand-lg navbar" style="background:transparent;">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <!-- Toggle button -->
+          <button class="navbar-toggler px-0" type="button" data-mdb-toggle="collapse"
+            data-mdb-target="#navbarExample1" aria-controls="navbarExample1" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+      
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarExample1">
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto ps-lg-0" style="padding-left: 0.15rem">
+             
+              <!-- Navbar dropdown -->
+              <li class="nav-item dropdown position-static">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                  data-mdb-toggle="dropdown" aria-expanded="false">
+                  <img src="./images/SLx.png" class="fx" width=""   alt=""  />
+                </a>
+                <!-- Dropdown menu -->
+                <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown" style="
+                                border-top-left-radius: 0;
+                                border-top-right-radius: 0;
+                              ">
+                  <div class="container- ">
+                    <div class="row my-4">
+                      <div class="col-md-6 col-lg-3 mb-3 mb-lg-0 ">
+                        <img src="./images/2650165.jpg" class="  amb"      alt=""  />
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <!-- Left links -->
+          </div>
+          <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+  </div>
+</section>
+
+<section>
+  <div class="container-fluid my-3   ">
+    <div class="row mx-5">
+      <div class="col-md-6 ">
+       <h2 style="font-weight:600 ;">FEEL THE ENGINE</h2>
+       <p class="col-md-11" style="font-size: 14px;">The unmistakable roar of the Lamborghini engine blends in with the sound of the wind: a perfect symphony for an adrenalin-packed driving experience.
+
+       </p>
+      <p class="col-md-6"  style="font-size: 14px;">Use headphones or earphones
+        for a 8D sound experience. <i class="fa-solid fa-headphones-simple fa-2x mx-2 "></i></p>
+  
+      </div>
+      
+      <div class="col-md-6 ">
+       
+      <h2 style="font-weight:600;">CENTRO STILE</h2>
+      <p class="col-md-11"  style="font-size: 14px;">A heartthrob made possible by perfect aerodynamics and cutting-edge technology, with an uncompromising look to the future. The breathtaking design sports aerodynamic lines that slice through the air, delivering thrilling performance as you touch the sky.</p>
+      </div>
+    </div>
+  </div>
+  
+</section>
+<section>
+
+
+  <div class="container my-5 p-5 ">
+    <div class="row text-center ">
+      <div class="col-md-4  ">
+      
+         </script>
+      <img src="./images/sounds.png" class="img-fluid" width="310px"   alt=""  />
+       
+      </div>
+      
+      <div class="col-md-8   ">
+        <img src="./images/x1.jpg" class="img-fluid" width="1300px"   alt=""  />
+       <br>
+       <p class="text-center">Lamborghini
+        Centro Stile Design
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button class="navbar-toggler px-0" type="button" data-mdb-toggle="collapse"
+        data-mdb-target="#navbarExample1" aria-controls="navbarExample1" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarExample1">
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto ps-lg-0" style="padding-left: 0.15rem">
+       
+          <!-- Navbar dropdown -->
+          <li class="nav-item dropdown position-static">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-mdb-toggle="dropdown" aria-expanded="false">
+              <img src="./images/SLx.png" class="ft" width=""   alt=""  />
+            
+            </a>
+            <!-- Dropdown menu -->
+            <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown" style="
+                            border-top-left-radius: 0;
+                            border-top-right-radius: 0;
+                          ">
+              <div class="container">
+                <div class="row my-4">
+                  <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="list-group list-group-flush">
+                      <img src="./images/01.jpg" class="qw"   alt=""  />
+                      <br>
+                      <img src="./images/02.jpg" class="qx"    alt=""  />
+                    </div>
+                  </div>
+                
+               
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+</section>
+
+<section>
+  
+
+  <div class="container- mx-5">
+    <div class="row mx-auto">
+      <div class="col-md-4 ">
+        <img src="./images/PngItem_6265484.png" class="img-fluid" width="400px"   alt=""  />
+      </div>
+      <div class="col-md-8 my-5">
+        <h2 class=" " style="font-weight: bold;">TYRE SPECIFICATIONS</h2>
+     <p class=" "  style="font-size: 14px;">The Pirelli tyres for the Lamborghini are a perfect marriage of technology and innovation, made with a special tread compound that can tackle any weather condition without hesitation.
+     The fronts are 20-inch rims and the backs are 21-inch rims. This also extends to the new Aventador SVJ. Of course, much like most other supercars, the Aventador S employs aluminum alloy wheels at all four corners. Currently, it is the only Lamborghini model to employ different wheel diameters front to back.The Aventador S actually has different sized wheels from front to back. The fronts are 20-inch rims and the backs are 21-inch rims. This also extends to the new Aventador SVJ. Of course, much like most other supercars, the Aventador S employs aluminum alloy wheels at all four corners.
+     The last variant of the Aventador was announced at the premiere on Lamborghini's social channels in July 2021. It is limited to 600 units (350 for the Coupé, 250 for the Roadster). It has all the standard features of the Aventador S and SVJ. It produces a maximum output of 780 PS (574 kW; 769 hp) and the same 720 N⋅m (531 lb⋅ft) of torque as the Aventador SVJ. Lamborghini claims that it can accelerate from 0–100 km/h (0–62 mph) in 2.8 seconds. The top speed is claimed to be 356 km/h (221 mph)</p></div>
+      
+    </div>
+  </div>
+</section>
+<section>
+  <h2 class="text-center my-5" style="font-weight: bold;">TECHNICAL SPECIFICATIONS</h2>
+
+<div class="row text-center">
+  <div class="col-xs-12 col-md-7">DISPLACEMENT
+  </div>
+  <div class="col-xs-5 col-md-3 ">6,498 cm³</div>
+</div>
+<hr class="mx-auto col-md-6">
+
+
+
+<div class="row text-center">
+  <div class="col-xs-12 col-md-7">MAX.POWER
+
+  </div>
+  <div class="col-xs-5 col-md-2 ">770 CV (566 kW) @ 8,500 rpm</div>
+</div>
+<hr class="mx-auto col-md-6">
+
+
+<div class="row text-center">
+  <div class="col-xs-12 col-md-7">TOP SPEED
+
+
+  </div>
+  <div class="col-xs-5 col-md-3 ">>350 km/h</div>
+</div>
+<hr class="mx-auto col-md-6">
+
+
+
+<div class="row text-center">
+  <div class="col-xs-10 col-md-8">ACCELERATION  0-100 KM/H 
+
+
+  </div>
+  <div class="col-xs-5 col-md-1 ">2.9 s</div>
+</div>
+<hr class="mx-auto col-md-6">
+
+
+<div class="row text-center">
+  <div class="col-xs-10 col-md-8">COMBINED CONSUMPTION *
+
+
+  </div>
+  <div class="col-xs-5 col-md-1">18,0 l/100km (WLTP)</div>
+</div>
+<hr class="mx-auto col-md-6">
+
+
+
+<div class="row text-center">
+  <div class="col-xs-10 col-md-8">COMBINED CO2 EMISSIONS *
+
+
+
+  </div>
+  <div class="col-xs-5 col-md-1">448 g/km (WLTP)</div>
+</div>
+<hr class="mx-auto col-md-6">
+<p class="text-center">Expand all
+  Technical Specifications
+  
+  </p>
+</section>
+<section>
+  
+  <nav class="navbar navbar-expand-lg navbar" style="background:transparent ;">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button class="navbar-toggler px-0" type="button" data-mdb-toggle="collapse"
+        data-mdb-target="#navbarExample2" aria-controls="navbarExample2" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarExample2">
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto ps-lg-0" style="padding-left: 0.15rem">
+        
+          <!-- Navbar dropdown -->
+          <li class="nav-item dropdown position-static">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-mdb-toggle="dropdown" aria-expanded="false">
+              <img src="./images/SLx.png" class="f1" width=""   alt=""  />
+            </a>
+            <!-- Dropdown menu -->
+            <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown" style="
+                            border-top-left-radius: 0;
+                            border-top-right-radius: 0;
+                          ">
+            <div class="container">
+              <div class="row ">
+                <div class="col">
+                 
+                  <div class="row text-center">
+                    <h2 style="font-weight: bold; " >CONSUMPTION</h2>
+                    <div class="col-xs-10 col-md-7">COMBINED CONSUMPTION *
+
+                  
+                  
+                    </div>
+                    <div class="col-xs-5 col-md-5 ">18,0 l/100km (WLTP)
+                    </div>
+                  </div>
+                  <hr class="mx-auto col-md-9">
+                  
+                  
+                  <div class="row text-center">
+                    <div class="col-xs-10 col-md-7">COMBINED CO2 EMISSIONS *
+
+                  
+                  
+                    </div>
+                    <div class="col-xs-5 col-md-5">448 g/km (WLTP)</div>
+                  </div>
+                  <hr class="mx-auto col-md-9">
+                </div>
+
+
+
+
+                <div class="col">
+                  <div class="row text-center">
+                    <h2 style="font-weight: bold; " >WHEELS</h2>
+                    <div class="col-xs-10 col-md-6">FRONT RIMS
+                  
+                  
+                    </div>
+                    <div class="col-xs-5 col-md-5 ">9”J X 20” H2 ET32.2</div>
+                  </div>
+                  <hr class="mx-auto col-md-9">
+                  
+                  
+                  <div class="row text-center">
+                    <div class="col-xs-10 col-md-6">REAR RIMS
+                  
+                  
+                    </div>
+                    <div class="col-xs-5 col-md-5">13”JX21” H2 ET 66.7
+                    </div>
+                  </div>
+                  <hr class="mx-auto col-md-9">
+                  
+                </div>
+                <div class="w-100"></div>
+               
+                <div class="col">
+                  <div class="row text-center">
+                    <h2 style="font-weight: bold; " >ENGINE</h2>
+                  <div class="col-xs-10 col-md-5">ENGINE
+
+
+                
+                
+                  </div>
+                  <div class="col-xs-5 col-md-6 ">V12, 60°, MPI (Multi Point Injection)</div>
+                </div>
+                <hr class="mx-auto col-md-9">
+                
+                
+                <div class="row text-center">
+                  <div class="col-xs-10 col-md-6">DISPLACEMENT
+
+                
+                
+                  </div>
+                  <div class="col-xs-5 col-md-5">6,498 cm³
+                  </div>
+
+                  
+                </div>
+                <hr class="mx-auto col-md-9">
+                  
+                <div class="row text-center">
+                  <div class="col-xs-10 col-md-6">BORE X STROKE
+
+                
+                
+                  </div>
+                  <div class="col-xs-5 col-md-5">95 mm x 76.4 mm (3.74 x 3.01 in)
+                  </div>
+
+                  
+                </div>
+                <hr class="mx-auto col-md-9">
+
+                <div class="row text-center">
+                  <div class="col-xs-10 col-md-7">COMPRESSIONS RATIO
+
+
+                
+                
+                  </div>
+                  <div class="col-xs-5 col-md-4">11.8 ± 0.2
+
+                  </div>
+
+                  
+                </div>
+                <hr class="mx-auto col-md-9">
+                <div class="row text-center">
+                  <div class="col-xs-10 col-md-6">MAX. POWER
+
+
+                
+                
+                  </div>
+                  <div class="col-xs-5 col-md-5">770 HP (566 kW) @ 8,500 rpm
+
+
+                  </div>
+
+                  
+                </div>
+                <hr class="mx-auto col-md-9"> 
+                <div class="row text-center">
+                  <div class="col-xs-10 col-md-6">MAX. TORQUE
+
+
+
+                
+                
+                  </div>
+                  <div class="col-xs-5 col-md-5">720 Nm @ 6,750 rpm
+
+
+                  </div>
+
+                  
+                </div>
+                <hr class="mx-auto col-md-9">
+
+              </div>
+                
+                
+                <div class="col">
+                  <div class="row text-center">
+                  <div class="col-xs-10 col-md-6">FRONT TIRES
+                
+                
+                  </div>
+                  <div class="col-xs-5 col-md-5 ">PIRELLI P ZERO CORSA 255/30</div>
+                </div>
+                <hr class="mx-auto col-md-9">
+                
+                
+                <div class="row text-center">
+                  <div class="col-xs-10 col-md-6">REAR TIRES
+
+                
+                
+                  </div>
+                  <div class="col-xs-5 col-md-5">PIRELLI P ZERO CORSA 355/25</div>
+                </div>
+                <hr class="mx-auto col-md-9"></div>
+              </div>
+            </div>
+
+
+
+
+            </div>
+          </li>
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+</section>
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-black text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+     <span style="font-weight:600;">COMPANY</span>  <span class="ms-2" style="font-weight: 600;" > CAREERS</span> 
+<span class="ms-2" style="font-weight:600;">CONTACT US</span>
+<span class="ms-2" style="font-weight:600;">SUSTAINABILITY</span>
+<span class="ms-2" style="font-weight:600">SUSTAINABILITY</span>
+<span class="ms-2" style="font-weight:600">PRIVACY & LEGAL</span> 
+<br>
+<span  style="font-weight:600;">SUSTAINABILITY</span>
+<span class="ms-2" style="font-weight:600">SUSTAINABILITY</span>
+<span class="ms-2" style="font-weight:600">PRIVACY & LEGAL</span>
+
+    </div>
+  
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f text-white"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter text-white"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google text-white"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram text-white"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin text-white"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github text-white"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-youtube text-white"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-12  mx-1 mb-4">
+        
+          <p>
+           *The consumption and emissions values in the website refer to your geographical IP. This value might be unrealistic if you navigate using VPN or if the position of your Internet provider is imprecise. If you believe you are incorrectly geolocalized, contact your dealer to get valid consumption and emissions information in your area.
+          </p>
+        </div>
+          <div class="col-md-6  mx-1 mb-4">
+        
+          <p style="font-weight: 600;">
+            Copyright © 2022 Automobili Lamborghini S.p.A. a sole shareholder company part of Audi Group.
+
+All rights reserved. VAT no. IT 00591801204
+          </p>
+        </div>
+     
+       
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-1" style="background-color:#1c1c1c;">
+   <p class="my-1 text-white">Fuel consumption and emission values of all vehicles promoted on this page*; Fuel consumption combined: 19,5-12,7 l/100km (WLTP); CO2-emissions combined: 448-320 g/km (WLTP)</p>
+  </div>
+ 
+</footer>
